@@ -1,0 +1,48 @@
+img{
+ border-radius: 100%;   
+ max-width: 150px;
+border: 1px solid black;
+}
+
+body{
+    background-color: rgb(222, 228, 244);
+}
+
+elemento {
+    margin: 10px; /
+  }
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      width: 95%;
+    }
+  
+    .sidebar,
+    .main-content {
+      width: 100%;
+      margin: 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .sidebar {
+      width: 25%;
+      float: left;
+    }
+  
+    .main-content {
+      width: 75%;
+      float: right;
+    }
+  }
